@@ -1,0 +1,54 @@
+body{
+    background-color: white smoke;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1{
+    margin: 0;  
+    font-size: 24px;
+}
+
+div.post{
+    border: 1px solid #ccc;
+    margin: 5%;
+    padding: 0px;
+    background-color: white;
+
+}
+
+div.post img{
+    width: 100%;
+    object-fit: cover;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    display: space-between;
+   
+}
+
+div.post-header{
+    display: flex;
+    align-items: center;
+
+}
+
+div.post-header >div:last-child{
+
+    margin-left: auto;
+    margin-right: 5px;
+    color:gray
+}   
+
+
+div.container{
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
